@@ -67,3 +67,55 @@ body {
     color: #4ea1ff;
     text-decoration: none;
 }
+
+/* PROJECT PAGE */
+
+.banner {
+    padding: 40px;
+}
+
+.banner-placeholder {
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    background-color: #2a2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.project-content {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.project-description {
+    color: #cccccc;
+    font-size: 17px;
+}
+
+.project-buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.primary {
+    background-color: #4ea1ff;
+    color: black;
+}
+
+.secondary {
+    background-color: #333;
+    color: white;
+}
