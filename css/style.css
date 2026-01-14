@@ -281,12 +281,13 @@ body {
     cursor: pointer;
     object-fit: cover;
 
-    /* default border (can be replaced with your custom border image) */
+    border-style: solid;
+    border-width: 6px;
     border-image: url("assets/images/bordername.png") 30 stretch;
-border-width: 6px;
 
     background: #111;
 }
+
 
 /* Responsive */
 @media (max-width: 900px) {
@@ -481,9 +482,10 @@ li {
 
 /* PROFILE INFO BELOW */
 .profile-info-page-container {
-    margin-top: 8cqi;
-    padding-left: 55px;   /* pulls entire block UP */
+    margin-top: 120px;   /* adjust manually */
+    padding-left: 55px;
 }
+
 
 /* TEXT + ICON ROW */
 .profile-info-row {
@@ -696,6 +698,12 @@ li {
 }
 
 
+.project-icon,
+.gallery-img,
+.profile-avatar,
+.logo-avatar {
+    max-width: 100%;
+}
 
 
 
