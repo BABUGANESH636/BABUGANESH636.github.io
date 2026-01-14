@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2D RPG – FSM Architecture | Babu Ganesh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+
+</head>
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">
+    <img 
+    src="assets/images/avatar.jpg" 
+    alt="Babu Ganesh" 
+    class="logo-avatar zoomable-img">
+
+    <span>Babu Ganesh</span>
+</a>
+
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="https://github.com/BABUGANESH636" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/babu-ganesh-ramasamy-gameplay-programmer" target="_blank">LinkedIn</a>
+        
+    </nav>
+</header>
+
+<!-- BANNER -->
+<section class="banner">
+    <img 
+        src="assets/images/space-shooter-banner.png" 
+        alt="2D RPG FSM Project Banner" 
+        class="banner-image">
+</section>
+
+<div class="section-divider"></div>
+
+<!-- CONTENT -->
+<section class="project-content page-container">
+
+   
+    <h1>
+        2D RPG – FSM Architecture
+        <span class="status-badge status-ongoing">🟢 Ongoing</span>
+    </h1>
+
+
+    <p class="project-description">
+        A long-term 2D RPG project built in Unity, focused on designing a clean,
+        scalable Finite State Machine (FSM) architecture for player abilities,
+        enemy behavior, combat flow, and interactions.
+    </p>
+    <div class="project-meta">
+    <span class="meta-pill">Unity</span>
+    <span class="meta-pill">C#</span>
+    <span class="meta-pill">FSM</span>
+    <span class="meta-pill">Gameplay</span>
+    <span class="meta-pill meta-ongoing">Ongoing</span>
+</div>
+<div class="section-divider"></div>
+
+
+
+    <h3>What This Project Shows</h3>
+
+<section class="showcase-grid">
+
+    <div class="showcase-card">
+        <div class="showcase-icon">🔁</div>
+        <h4>Gameplay Architecture</h4>
+        <p>
+            Ability-based FSM architecture designed for scalability
+            and long-term maintainability.
+        </p>
+    </div>
+
+    <div class="showcase-card">
+        <div class="showcase-icon">⚔️</div>
+        <h4>Combat Systems</h4>
+        <p>
+            State-driven combat flow with clear separation between
+            input, logic, and feedback.
+        </p>
+    </div>
+
+    <div class="showcase-card">
+        <div class="showcase-icon">🖥️</div>
+        <h4>UI Feedback</h4>
+        <p>
+            Gameplay-driven UI designed to communicate player state,
+            abilities, and combat events clearly.
+        </p>
+    </div>
+
+</section>
+
+
+    <h3>Gameplay & Systems Showcase</h3>
+
+<section class="gallery-grid">
+
+    <img src="assets/images/rpg-1.png" alt="RPG Gameplay Screenshot 1" class="gallery-img">
+    <img src="assets/images/rpg-2.png" alt="RPG Gameplay Screenshot 2" class="gallery-img">
+    <img src="assets/images/rpg-3.png" alt="RPG Gameplay Screenshot 3" class="gallery-img">
+
+    <img src="assets/images/rpg-4.png" alt="RPG Gameplay Screenshot 4" class="gallery-img">
+    <img src="assets/images/rpg-5.png" alt="RPG Gameplay Screenshot 5" class="gallery-img">
+    <img src="assets/images/rpg-6.png" alt="RPG Gameplay Screenshot 6" class="gallery-img">
+
+</section>
+
+    <h3>FSM Architecture Overview</h3>
+    <h3>Why Finite State Machines?</h3>
+
+    <p>
+        FSMs provide predictable control over complex gameplay behavior,
+        especially in combat-driven games. This approach improves debugging,
+        testing, and long-term maintainability compared to tightly coupled logic.
+    </p>
+
+
+    <p>
+        The project uses a Finite State Machine (FSM) approach to manage player
+        and enemy behavior. Each state is isolated, self-contained, and responsible
+        only for its own logic.
+    </p>
+
+<ul>
+    <li>
+        <strong>State Machine Core:</strong>
+        A central controller handles state transitions and ensures that
+        only the active state processes input and logic.
+    </li>
+
+    <li>
+        <strong>Player States:</strong>
+        Idle, Move, Attack, Dash, Hurt, and Death states are implemented
+        as modular units rather than monolithic scripts.
+    </li>
+
+    <li>
+        <strong>Enemy States:</strong>
+        Enemies operate using state-driven behavior such as Patrol,
+        Chase, Attack, Stagger, and Death.
+    </li>
+
+    <li>
+        <strong>Scalability:</strong>
+        New abilities and behaviors can be added without modifying
+        existing states, reducing coupling and regression risk.
+    </li>
+</ul>
+
+    <h3>What This Project Demonstrates</h3>
+    <ul>
+        <li>Scalable gameplay architecture</li>
+        <li>Clear separation of responsibilities</li>
+        <li>Combat-oriented design thinking</li>
+        <li>Ability to grow a prototype into a full system</li>
+    </ul>
+
+    <div class="project-buttons">
+        <a href="https://youritchlink" class="btn primary" target="_blank">
+            ▶ Play Prototype
+        </a>
+        <a href="https://github.com/BABUGANESH636/unity-fsm-2d-rpg.git" class="btn secondary" target="_blank">
+            💻 View Code
+        </a>
+    </div>
+</section>
+<div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" src="">
+</div>
+
+
+</body>
+</html>

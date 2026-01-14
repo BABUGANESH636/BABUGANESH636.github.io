@@ -4,48 +4,116 @@
     <meta charset="UTF-8">
     <title>Space Shooter | Babu Ganesh</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
 </head>
 <body>
 
 <header class="navbar">
-    <div class="logo">Babu Ganesh</div>
+    <a href="index.html" class="logo">
+    <img 
+    src="assets/images/avatar.jpg" 
+    alt="Babu Ganesh" 
+    class="logo-avatar zoomable-img">
+
+    <span>Babu Ganesh</span>
+</a>
+
     <nav class="nav-links">
         <a href="index.html">Home</a>
         <a href="https://github.com/BABUGANESH636" target="_blank">GitHub</a>
-        <a href="#" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/babu-ganesh-ramasamy-gameplay-programmer" target="_blank">LinkedIn</a>
+        
     </nav>
 </header>
 
-<!-- BANNER -->
 <section class="banner">
-    <div class="banner-placeholder">
-        16:9 GAME BANNER IMAGE
-    </div>
+    <img 
+        src="assets/images/space-shooter-banner.png" 
+        alt="Space Shooter Banner" 
+        class="banner-image">
 </section>
 
-<!-- CONTENT -->
-<section class="project-content">
-    <h1>Space Shooter</h1>
+<div class="section-divider"></div>
+
+<section class="project-content page-container">
+
+    
+    <h1>Galaxy Shooter
+    <span class="status-badge status-prototype">🧪 Prototype</span></h1>
 
     <p class="project-description">
-        A 2D space shooter built in Unity featuring player abilities, enemy waves,
-        power-ups, and local co-op support.
+        A 2D space shooter built in Unity focusing on clean gameplay architecture.
+        The project emphasizes modular systems, reusable abilities, and scalable enemy behavior.
     </p>
+    <div class="project-meta">
+        <span class="meta-pill">Unity</span>
+        <span class="meta-pill">C#</span>
+        <span class="meta-pill">Combat</span>
+        <span class="meta-pill">Co-op</span>
+        <span class="meta-pill meta-prototype">Prototype</span>
+    </div>
+    <div class="section-divider"></div>
 
-    <h3>Core Systems</h3>
-    <ul>
-        <li>Player movement & shooting</li>
-        <li>Ability-based architecture</li>
-        <li>Enemy spawn system</li>
-        <li>UI & game states</li>
-        <li>Local co-op logic</li>
-    </ul>
+    <section class="split-section">
+
+    <!-- LEFT: Systems -->
+    <div>
+        <h3>Core Systems</h3>
+        <ul>
+            <li>🎮 Player movement & shooting</li>
+            <li>⚔️ Combat & enemy interactions</li>
+            <li>🔁 Ability-based architecture</li>
+            <li>🧩 Enemy spawn system</li>
+            <li>🖥️ UI & game state handling</li>
+            <li>👥 Local co-op input logic</li>
+        </ul>
+    </div>
+
+    <!-- RIGHT: Snapshot -->
+    <div class="split-box">
+        <h4>🧪 Prototype Snapshot</h4>
+        <ul>
+            <li>🧩 <strong>Engine:</strong> Unity</li>
+            <li>💻 <strong>Language:</strong> C#</li>
+            <li>🎮 <strong>Focus:</strong> Combat Gameplay</li>
+            <li>🧪 <strong>Status:</strong> Prototype</li>
+            <li>📦 <strong>Scope:</strong> System Exploration</li>
+        </ul>
+    </div>
+
+</section>
+
+    
+
+<section class="gallery-grid">
+
+    <img src="assets/images/shooter-1.png" alt="Galaxy Shooter Gameplay 1" class="gallery-img">
+    <img src="assets/images/shooter-2.png" alt="Galaxy Shooter Gameplay 2" class="gallery-img">
+    <img src="assets/images/shooter-3.png" alt="Galaxy Shooter Gameplay 3" class="gallery-img">
+
+    <img src="assets/images/shooter-4.png" alt="Galaxy Shooter Gameplay 4" class="gallery-img">
+    <img src="assets/images/shooter-5.png" alt="Galaxy Shooter Gameplay 5" class="gallery-img">
+    <img src="assets/images/shooter-6.png" alt="Galaxy Shooter Gameplay 6" class="gallery-img">
+
+</section>
+
+
+    
 
     <div class="project-buttons">
-        <a href="#" class="btn primary">▶ Play Game</a>
-        <a href="#" class="btn secondary">💻 View Code</a>
+        <a href="https://babuganesh-unity.itch.io/galaxy-space-shooter" class="btn primary" target="_blank">
+            ▶ Play Game
+        </a>
+        <a href="https://github.com/BABUGANESH636/unity-prototype-galaxy-shooter.git" class="btn secondary" target="_blank">
+            💻 View Code
+        </a>
     </div>
 </section>
+<div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" src="">
+</div>
+
 
 </body>
 </html>

@@ -2,38 +2,261 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Babu Ganesh | Unity Programmer</title>
+    <title>Babu Ganesh | Gameplay Programmer</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+
 </head>
 <body>
 
 <header class="navbar">
-    <div class="logo">Babu Ganesh</div>
+    <a href="index.html" class="logo">
+        <img 
+            src="assets/images/avatar.jpg" 
+            alt="Babu Ganesh" 
+            class="logo-avatar zoomable-img">
+        <span>Babu Ganesh</span>
+    </a>
 
     <nav class="nav-links">
         <a href="https://github.com/BABUGANESH636" target="_blank">GitHub</a>
-        <a href="#" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/babu-ganesh-ramasamy-gameplay-programmer" target="_blank">LinkedIn</a>
+
         <a href="#" target="_blank">Resume</a>
     </nav>
 </header>
 
-<main class="hero">
-    <h1>Unity Game Developer</h1>
-    <p>
-        I build gameplay systems, mechanics, and playable games in Unity.
-    </p>
-</main>
+<section class="profile-header">
 
-<section class="projects">
-    <h2>Main Projects</h2>
+    <div class="profile-cover">
+        <img src="assets/images/profile-banner.jpg" alt="Profile Banner">
+    </div>
 
-    <div class="project-card">
-        <h3>Project Title</h3>
-        <p>Short description of the game.</p>
-        <a href="project-space-shooter.html">View Project</a>
+    <!-- DP OVERLAPPING BANNER -->
+    <img 
+        src="assets/images/avatar.jpg"
+        alt="Babu Ganesh"
+        class="profile-avatar zoomable-img"
+    >
+
+</section>
+<section class="profile-info-page-container">
+
+    <div class="profile-info-row">
+
+        <!-- LEFT: TEXT -->
+        <div class="profile-text">
+            <h1>Babu Ganesh</h1>
+            <h2>Gameplay Programmer (Unity / C#)</h2>
+
+            <p class="profile-summary">
+                I specialize in player movement, combat systems, UI,
+                and scalable gameplay architecture.Focused on building responsive, maintainable gameplay systems for combat-driven games.
+            </p>
+        </div>
+
+       
 
     </div>
+
 </section>
+
+
+
+
+
+
+
+
+<section class="tech-stack">
+    <span class="tech-pill">Unity</span>
+    <span class="tech-pill">C#</span>
+    <span class="tech-pill">Gameplay Programming</span>
+    <span class="tech-pill">FSM</span>
+    <span class="tech-pill">UI</span>
+    <span class="tech-pill">Git</span>
+</section>
+
+
+<div class="section-divider"></div>
+
+
+
+<section class="projects">
+    <h2>Projects</h2>
+
+    <!-- Tabs -->
+    <div class="project-tabs">
+        <button class="tab-btn active" onclick="showProjects('major', this)">
+            Major Projects
+        </button>
+
+        <button class="tab-btn" onclick="showProjects('prototype', this)">
+            Prototypes
+        </button>
+
+        <button class="tab-btn" onclick="showProjects('learning', this)">
+        Learning
+        </button>
+
+    </div>
+
+    <!-- MAJOR PROJECTS -->
+    <div class="project-group active" id="major">
+        <div class="project-card steam-card">
+
+    <!-- LEFT: GAME ICON -->
+    <img 
+        src="assets/icons/rpg-icon.png" 
+        alt="2D RPG Icon"
+        class="project-icon"
+    >
+
+    <!-- RIGHT: CONTENT -->
+    <div class="project-content">
+        <h3>2D RPG – FSM Architecture</h3>
+
+        <p>
+            A 2D RPG focused on a scalable finite state machine architecture
+            for player abilities, enemies, weapons, and interactions.
+        </p>
+
+        <div class="project-meta">
+            <span class="meta-pill">Unity</span>
+            <span class="meta-pill">C#</span>
+            <span class="meta-pill meta-ongoing">Ongoing</span>
+        </div>
+
+        <a href="project-2d-rpg.html" class="project-link">
+            View Project →
+        </a>
+    </div>
+
+</div>
+
+    </div>
+
+    <!-- PROTOTYPES -->
+<div class="project-group" id="prototype">
+
+    <div class="project-card steam-card">
+
+        <!-- LEFT: GAME ICON -->
+        <img 
+            src="assets/icons/galaxy-shooter-icon.png"
+            alt="Galaxy Shooter Icon"
+            class="project-icon"
+        >
+
+        <!-- RIGHT: CONTENT -->
+        <div class="project-content">
+            <h3>Galaxy Shooter</h3>
+
+            <p>
+                A fast-paced 2D space shooter prototype built to experiment with
+                combat feel, enemy wave systems, and local co-op gameplay.
+            </p>
+
+            <div class="project-meta">
+                <span class="meta-pill">Unity</span>
+                <span class="meta-pill">C#</span>
+                <span class="meta-pill">Combat</span>
+                <span class="meta-pill">Co-op</span>
+                <span class="meta-pill meta-prototype">Prototype</span>
+            </div>
+
+            <a href="project-space-shooter.html" class="project-link">
+                View Project →
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+
+    
+    <!-- LEARNING -->
+<div class="project-group" id="learning">
+
+    <div class="project-card steam-card">
+
+        <!-- LEFT: GAME ICON -->
+        <img 
+            src="assets/icons/tilevania-icon.png"
+            alt="Tilevania Icon"
+            class="project-icon"
+        >
+
+        <!-- RIGHT: CONTENT -->
+        <div class="project-content">
+            <h3>Tilevania</h3>
+
+            <p>
+                A learning-focused 2D platformer project created to study
+                tilemap-based level design, precise player movement,
+                and collision handling in Unity.
+            </p>
+
+            <div class="project-meta">
+                <span class="meta-pill">Unity</span>
+                <span class="meta-pill">C#</span>
+                <span class="meta-pill">Platformer</span>
+                <span class="meta-pill">Tilemaps</span>
+                <span class="meta-pill meta-learning">Learning</span>
+            </div>
+            <a href="project-tilevania.html" class="project-link">
+                View Project →
+            </a><br>
+            <span class="muted">
+                Documentation, notes, and gameplay experiments
+            </span>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+<div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" src="">
+</div>
+<footer class="site-footer">
+
+    <div class="footer-content page-container">
+
+        <!-- LEFT: IDENTITY -->
+        <div class="footer-left">
+            <span class="footer-name">Babu Ganesh</span>
+            <span class="footer-role">Gameplay Programmer · Unity / C#</span>
+            <span class="footer-location">India</span>
+        </div>
+
+        <!-- CENTER: CONTACT -->
+        <div class="footer-contact">
+            <a href="mailto:babuganesh636@gmail.com">
+                📧 babuganesh636@gmail.com
+            </a>
+        </div>
+
+        <!-- RIGHT: LINKS -->
+        <div class="footer-links">
+            <a href="https://github.com/BABUGANESH636" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/babu-ganesh-ramasamy-gameplay-programmer" target="_blank">
+                LinkedIn
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Babu Ganesh · All rights reserved
+    </div>
+
+</footer>
+
+
 
 </body>
 </html>
